@@ -19,7 +19,7 @@ permissions:
 jobs:
   checklicense:
     name: check
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     outputs:
       is_unity_license_set: ${{ steps.checklicense_job.outputs.is_unity_license_set }}
     steps:
